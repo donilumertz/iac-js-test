@@ -22,6 +22,9 @@ console.log("a xor b (2) " + s);
 var s = (a || b) && !(a && b);
 console.log("a xor b (3) " + s);
 
+var s = a ^ b;
+console.log("a xor b e s é do tipo " + typeof(s) + " - convertendo para bool fica " + Boolean(s));
+
 
 var temperatura = 20;
 
